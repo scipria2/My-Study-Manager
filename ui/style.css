@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-right:0px;
+  padding:0;
+}
+button {
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+nav {
+    border-bottom: 1px solid black;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    background: gray;
+    height: 60px;
+    color: blue;
+}
+nav div {
+    width: 49%;
+    text-align: left;
+    float: left;
+    padding-left:1%;
+}
+
+nav div a {
+    margin-right: 1.0em;
+    text-align: right;
+    float: right;
+}
