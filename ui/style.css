@@ -1,15 +1,10 @@
-body {
+.indexfrmt {
   font-family: Arial, sans-serif;
   text-align: center;
   margin-right:0px;
   padding:0;
 }
-button {
-  padding: 5px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-nav {
+.navigation {
     border-bottom: 1px solid black;
     padding-top: 17px;
     padding-bottom: 15px;
@@ -17,15 +12,47 @@ nav {
     height: 60px;
     color: blue;
 }
-nav div {
+.logo {
     width: 49%;
     text-align: left;
     float: left;
     padding-left:1%;
 }
-
-nav div a {
+.loginlink {
     margin-right: 1.0em;
     text-align: right;
     float: right;
+}
+.clndrfrmt {
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+h1 {
+    text-align: center;
+}
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+.day {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    min-height: 100px;
+    position: relative;
+}
+.day-number {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#month-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
 }
